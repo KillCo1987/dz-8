@@ -11,6 +11,12 @@
   }
 }
 
+@media screen and (min-width: 768px) {
+  .header-container {
+    height: 80px;
+  }
+}
+
 // .header {
 //   padding-top: 24px;
 //   padding-bottom: 24px;

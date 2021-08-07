@@ -139,6 +139,10 @@ img {
   height: 40px;
 }
 
+.burger-icon:hover, .burger-icon:focus {
+  fill: var(--interactive-color);
+}
+
 .mobile-menu {
   z-index: 100;
   position: fixed;
@@ -213,6 +217,10 @@ img {
 
 .mobile-nav-list__link.current {
   color: #2196f3;
+}
+
+.mobile-contacts-list {
+  margin-top: 302px;
 }
 
 .mobile-contacts-list__link {
@@ -486,6 +494,7 @@ img {
 
 @media screen and (max-width: 767px) {
   .main-section {
+    background-size: cover;
     background-image: url("/images/Header-mobile@1.jpg");
     display: flex;
     padding-top: 118px;
@@ -516,6 +525,7 @@ img {
 
 @media screen and (min-width: 768px) {
   .main-section {
+    background-size: cover;
     background-image: url("/images/hero-tablet@1.jpg");
     display: flex;
     flex-direction: column;

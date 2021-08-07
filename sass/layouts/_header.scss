@@ -15,6 +15,11 @@
 .burger-icon {
   width: 40px;
   height: 40px;
+
+  &:hover,
+  &:focus {
+    fill: var(--interactive-color);
+  }
 }
 
 .mobile-menu {
@@ -102,7 +107,7 @@
 }
 
 .mobile-contacts-list {
-  // margin-top: 302px;
+  margin-top: 302px;
 }
 
 .mobile-contacts-list__link {
